@@ -5,7 +5,7 @@ function HomeGuest() {
 		<div className="container py-md-5">
 			<div className="row align-items-center">
 				<div className="col-lg-7 py-3 py-md-5">
-					<h1 className="display-3">Official website of the Boba Boyz Gaming Collective</h1>
+					<h1 className="display-3">Boba Boyz</h1>
 					<p className="lead text-muted">A place to do stuff and things.</p>
 				</div>
 				<div className="col-lg-5 pl-lg-5 pb-3 py-lg-5">
