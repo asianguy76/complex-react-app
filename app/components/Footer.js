@@ -18,9 +18,9 @@ function Footer() {
 				</Link>
 			</p>
 			<p className="m-0">
-				Copyright &copy; 2020{' '}
+				Copyright &copy; 2021{' '}
 				<a href="/" className="text-muted">
-					ComplexApp
+					asianguy76
 				</a>
 				. All rights reserved.
 			</p>
