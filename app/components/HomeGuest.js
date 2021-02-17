@@ -21,8 +21,8 @@ function HomeGuest() {
 		<Page title="Welcome" wide={true}>
 			<div className="row align-items-center">
 				<div className="col-lg-7 py-3 py-md-5">
-					<h1 className="display-3">Boba Boyz</h1>
-					<p className="lead text-muted">A place to do stuff and things.</p>
+					<h1 className="display-3">Subtle Average Auctions</h1>
+					<p className="lead text-muted">An average love story.</p>
 				</div>
 				<div className="col-lg-5 pl-lg-5 pb-3 py-lg-5">
 					<form onSubmit={handleSubmit}>
@@ -45,7 +45,7 @@ function HomeGuest() {
 							<input onChange={e => setPassword(e.target.value)} id="password-register" name="password" className="form-control" type="password" placeholder="Create a password" />
 						</div>
 						<button type="submit" className="py-3 mt-4 btn btn-lg btn-success btn-block">
-							Sign up for Boba Boyz
+							Sign up for SAA
 						</button>
 					</form>
 				</div>

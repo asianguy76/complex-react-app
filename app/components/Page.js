@@ -3,7 +3,7 @@ import Container from './Container';
 
 function Page(props) {
 	useEffect(() => {
-		document.title = `${props.title} | Boba Boys`;
+		document.title = `${props.title} | SAA`;
 		window.scrollTo(0, 0);
 	}, []);
 
