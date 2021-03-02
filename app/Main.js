@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Axios from 'axios';
+// Next line sets default URL from backend
+Axios.defaults.baseURL = 'http://localhost:8080';
 
 // Components
 
