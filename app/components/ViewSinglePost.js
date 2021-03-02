@@ -3,8 +3,7 @@ import Page from './Page';
 
 function ViewSinglePost() {
 	return (
-		<Page title="hardcode">
-			{' '}
+		<Page title="Fake Hardcoded Title">
 			<div className="d-flex justify-content-between">
 				<h2>Example Post Title</h2>
 				<span className="pt-2">
@@ -16,12 +15,14 @@ function ViewSinglePost() {
 					</a>
 				</span>
 			</div>
+
 			<p className="text-muted small mb-4">
 				<a href="#">
 					<img className="avatar-tiny" src="https://gravatar.com/avatar/b9408a09298632b5151200f3449434ef?s=128" />
 				</a>
 				Posted by <a href="#">brad</a> on 2/10/2020
 			</p>
+
 			<div className="body-content">
 				<p>
 					Lorem ipsum dolor sit <strong>example</strong> post adipisicing elit. Iure ea at esse, tempore qui possimus soluta impedit natus voluptate, sapiente saepe modi est pariatur. Aut voluptatibus aspernatur fugiat asperiores at.
