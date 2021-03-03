@@ -1,11 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import Page from './Page';
 import Axios from 'axios';
 import { withRouter } from 'react-router-dom';
+import ExampleContext from '../ExampleContext';
 
 function CreatePost(props) {
 	const [title, setTitle] = useState();
 	const [body, setBody] = useState();
+	const { addFlashMessage } = useContext(ExampleContext);
 
 	async function handleSubmit(e) {
 		e.preventDefault();
@@ -15,7 +17,7 @@ function CreatePost(props) {
 			// Redirect to new post url
 			props.history.push(`/post/${response.data}`);
 			// Adds flash message to posts
-			props.addFlashMessage('You successfuly created a post!');
+			addFlashMessage('You successfuly created a post!');
 			console.log('New post was created');
 		} catch (e) {
 			console.log('There was a problem');

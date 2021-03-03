@@ -18,9 +18,9 @@ function ViewSinglePost() {
 
 			<p className="text-muted small mb-4">
 				<a href="#">
-					<img className="avatar-tiny" src="https://gravatar.com/avatar/b9408a09298632b5151200f3449434ef?s=128" />
+					<img className="avatar-tiny" src={localStorage.getItem('complexappAvatar')} />
 				</a>
-				Posted by <a href="#">brad</a> on 2/10/2020
+				Posted by <a href="#">shang</a> on 2/10/2020
 			</p>
 
 			<div className="body-content">
